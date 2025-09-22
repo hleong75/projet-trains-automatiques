@@ -1,0 +1,57 @@
+# Arduino IDE files
+*.hex
+*.elf
+*.map
+*.tmp
+
+# Build directories
+build/
+Debug/
+Release/
+
+# Arduino libraries (if locally installed)
+libraries/
+
+# IDE specific files
+.vscode/
+.idea/
+*.code-workspace
+
+# OS specific files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Log files
+*.log
+
+# Documentation build
+docs/_build/
+
+# Python cache (if using PlatformIO)
+__pycache__/
+*.pyc
+*.pyo
+
+# Node modules (if using web interface)
+node_modules/
+
+# Personal configuration backups
+config_backup/
+personal_configs/
+
+# Hardware specific calibration files
+calibration.txt
+motor_calibration.dat
+
+# Test results
+test_results/
+measurements/
